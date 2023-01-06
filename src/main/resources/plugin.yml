@@ -1,0 +1,6 @@
+name: System
+version: ${project.version}
+main: de.paintabletoast.system.boot.Core
+authors: [ PaintableToast ]
+description: A Plugin
+website: paintabletoast.de

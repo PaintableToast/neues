@@ -1,0 +1,31 @@
+# You can use '&' for Color Codes
+# %PREFIX% - Insert this to place the Prefix from the path: "MESSAGE.GENERAL.PREFIX"
+# %CONSOLE_PREFIX% - Insert this to place the ConsolePrefix from the path: "MESSAGE.GENERAL.CONSOLEPREFIX"
+# %PLUGIN_NAME% - Insert this to place the name of the Plugin
+# %COMMAND% - Insert this to place the command name
+# %LISTENER% - Insert this to place the Listener name
+# %INFORMATION% - Insert this to place the Information Tag from the path: "MESSAGE.GENERAL.INFORMATION_TAG"
+# %COMMAND_ARGUMENT% - Insert this to place the argument of the command
+# %ENTER% - Insert this to join a next line
+# %PLAYER% - returns the Player name
+# %TARGET% - returns the Target name
+# %FILE% - returns File Path
+MESSAGE:
+  GENERAL:
+    PREFIX: "&dSupernoob.net &8»&7"
+    CONSOLE_PREFIX: "&8[&a%PLUGIN_NAME%&8]"
+    INFORMATION_TAG: "&8=======================&8[&dINFO&8]&8======================="
+  USER:
+    NO_PERMISSION: " %ENTER%%INFORMATION%%ENTER%%PREFIX% &7You have no Permission!%ENTER% "
+    WRONG_COMMAND_ARGUMENTATION: " %ENTER%%INFORMATION%%ENTER%%PREFIX% &7Please use this command arguments: &b/%COMMAND_ARGUMENT%&7!%ENTER% "
+  CONSOLE:
+    NO_CONSOLE: "%CONSOLE_PREFIX% &fYou cannot use &b/%COMMAND% &fin the Console!"
+    PLUGIN_LOAD: "%CONSOLE_PREFIX% &fThe plugin &a%PLUGIN_NAME% &fis loading!"
+    PLUGIN_SUCCESS_LOAD: "%CONSOLE_PREFIX% &fThe plugin &a%PLUGIN_NAME% &fis loaded successful!"
+    PLUGIN_ERROR_LOAD: "%CONSOLE_PREFIX% &fThe plugin &a%PLUGIN_NAME% &fhad an exception on loading!"
+    PLUGIN_STOP: "%CONSOLE_PREFIX% &fDas Plugin &a%PLUGIN_NAME% &fwurde heruntergefahren!"
+    FILE_LOAD_CONFIG: "%CONSOLE_PREFIX% &fThe File &b%FILE% &fcould not be loaded!"
+    COMMAND_SUCCESS: "%CONSOLE_PREFIX% &fThe Command &d/%COMMAND% &fcould be successful loaded!"
+    COMMAND_ERROR: "%CONSOLE_PREFIX% &cThe Command &d/%COMMAND% &chad an error while loading!"
+    LISTENER_SUCCESS: "%CONSOLE_PREFIX% &fThe Event &3%LISTENER% &fcould be successful loaded!"
+    LISTENER_ERROR: "%CONSOLE_PREFIX% &cThe Event &3%LISTENER% &chad an error while loading!"
